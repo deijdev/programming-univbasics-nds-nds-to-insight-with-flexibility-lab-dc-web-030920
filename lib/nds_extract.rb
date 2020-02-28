@@ -94,9 +94,9 @@ def movies_with_directors_set(source)
     new_arr = []
  source.each do |movies_info|
     movies_info_with_director = movies_with_director_key(movies_info[:name], movies_info[:movies])
-    new_arr << movies_info_with_director
+    new_array << movies_info_with_director
   end 
-  new_arr
+  new_array
 end
 
 
